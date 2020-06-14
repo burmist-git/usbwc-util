@@ -1,0 +1,17 @@
+#
+# Mon Oct 17 00:20:34 CEST 2016
+# Autor: Leonid Burmistrov
+#
+# crontab file for CORTO DATA treatment
+#
+# Useful crontab commands :
+# To see the setup file for crontab
+# > crontab -l
+#
+# To define setup file for crontab
+# > crontab crontab.file
+#
+# To stop crontab
+# crontab -r
+#
+* * * * * cd /home/leonid/home2/sr90_test_CERN_16.02.2017/ana ; ./makeFilesync.screen.bash      
